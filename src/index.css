@@ -1,0 +1,220 @@
+/*body {*/
+/*  margin: 0;*/
+/*  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',*/
+/*    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',*/
+/*    sans-serif;*/
+/*  -webkit-font-smoothing: antialiased;*/
+/*  -moz-osx-font-smoothing: grayscale;*/
+/*}*/
+
+/*code {*/
+/*  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',*/
+/*    monospace;*/
+/*}*/
+/* .nav {
+  color: #142535;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: 0.3rem 0.8rem;
+} */
+.sidebar {
+  position: fixed;
+  width: 100px;
+  background: #fff;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  text-align: center;
+  padding: 1rem 0;
+  margin-bottom: 5px;
+}
+.sidebar_icon {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  margin-top: 8rem;
+}
+.sidebar_icon li {
+  margin: 1rem 0;
+  padding: 0.5rem 0;
+  border-left: 4px solid #fff;
+}
+.sidebar_icon li:hover {
+  border-color: #049148;
+  color: #049148;
+}
+.em {
+  color: #a09e9e;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.sidebar_icon li em:hover {
+  color: #049148;
+}
+.user_name h2 {
+  font-weight: 400;
+  color: #1a1a1a;
+  /* margin-top: 90px; */
+  margin-left: 7px;
+}
+/* .graph_area {
+  padding: 0px 15px 30px 105px;
+} */
+.value_cards_sec {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.value_card {
+  border-radius: 20px;
+  color: #fff;
+  background-color: #ddd;
+  height: 115px;
+  box-shadow: 0px 16px 20px #ffceb9;
+  padding: 1.2rem;
+}
+.value_card p {
+  color: #fff !important;
+  font-size: 14px;
+}
+.value_card h3 {
+  color: #fff !important;
+  font-weight: 700;
+}
+.card_1 {
+  background: transparent linear-gradient(109deg, #55ecb2 0%, #2dd393 100%) 0%
+    0% no-repeat padding-box;
+  border-radius: 12px;
+  opacity: 1px;
+  font-weight: 500;
+}
+.card_2 {
+  background: transparent linear-gradient(112deg, #fe7379 0%, #f549a1 100%) 0%
+    0% no-repeat padding-box;
+  border-radius: 12px;
+  opacity: 1px;
+  font-weight: 500;
+}
+.card_3 {
+  background: transparent linear-gradient(112deg, #b050d1 0%, #2b26a7 100%) 0%
+    0% no-repeat padding-box;
+  border-radius: 12px;
+  opacity: 1px;
+  font-weight: 500;
+}
+.card_4 {
+  background: transparent linear-gradient(112deg, #19e7da 0%, #6078ea 100%) 0%
+    0% no-repeat padding-box;
+  border-radius: 12px;
+  opacity: 1px;
+  font-weight: 500;
+}
+.graph_sec {
+  margin-bottom: 2rem;
+}
+.graph_sec_2 {
+  box-shadow: 0px 16px 20px #fde7dda4;
+  padding: 1.2rem;
+  border-radius: 12px;
+  background: #fff;
+}
+.graph_sec_2 p {
+  color: #2b2b2b;
+  font-size: 14px;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+.graph_sec_2 img {
+  width: 100%;
+  height: 250px;
+}
+.graph_sec_2 img.line_graph {
+  width: 100%;
+  height: 250px;
+}
+.graph_sec_2 img.bar_graph {
+  width: 100%;
+  height: 330;
+}
+.copyright_txt {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.copyright_txt p {
+  color: #2b2b2b;
+  font-size: 14px;
+  font-weight: 500;
+}
+@media only screen and (max-width: 767px) {
+  .graph_area {
+    padding: 30px 15px 30px 105px;
+  }
+  .user_name h2 {
+    font-size: 1.3rem;
+    text-align: center;
+  }
+  .value_card {
+    margin-bottom: 2rem;
+  }
+}
+
+.btn {
+  margin-left: 20px;
+}
+@media only screen and (max-width: 767px) {
+  .btn {
+    margin-bottom: 0.5rem;
+  }
+}
+
+.send {
+  width: 100%;
+  height: 40px;
+  background-color: #049148;
+  border: none;
+  border-radius: 2px;
+}
+.btn_1 {
+  font-size: 14px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.container {
+  align-items: center;
+  margin-top: 150px;
+}
+.box {
+  border: solid;
+}
+.heading {
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  font-size: 24px;
+}
+.pay {
+  align-items: center;
+  width: 100%;
+  margin-left: 440px;
+  height: 40px;
+  font-size: 14px;
+  background-color: #007bff !important;
+  border: none;
+  border-radius: 2px;
+  margin-bottom: 50px;
+}
+.pay_1 {
+  color: #fff;
+}
+.download{
+  width: 100%;
+  height: 40px;
+  background-color: #049148;
+  border: none;
+  border-radius: 2px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+}
